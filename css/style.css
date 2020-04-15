@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  nav {
+    font-family: sans-serif;
+  
+    min-width: 310px;
+    background: lightslategrey;
+    border-right: 1px solid black;
+    height: 100vh;
+  }
+  nav a {
+    color: black;
+    display: block;
+    padding: 15px;
+    border-top: 2px solid black;
+    text-decoration: none;
+  }
+  nav header {
+    padding: 15px;
+  }
+  main {
+    flex: 1;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  
